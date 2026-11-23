@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<package format="1" xmlns="https://wiki.freecad.org/Package_Metadata">
+  <name>PCB FEM</name>
+  <description>Import KiCad copper nets (stackup, pads, planes, through/blind/buried/micro vias) as FreeCAD solids, define current/ground/voltage terminals on pads and vias, and build Elmer static-current (DC IR-drop / Joule heating) analyses.</description>
+  <version>0.3.1</version>
+  <date>2026-11-22</date>
+  <maintainer email="jaredBevis@users.noreply.github.com">Jared</maintainer>
+  <license file="LICENSE">LGPL-2.1-or-later</license>
+  <url type="repository" branch="main">https://github.com/jaredBevis/pcb-fem</url>
+  <url type="bugtracker">https://github.com/jaredBevis/pcb-fem/issues</url>
+  <url type="readme">https://github.com/jaredBevis/pcb-fem/blob/main/README.md</url>
+  <icon>freecad/pcbfem/Resources/icons/PcbFem.svg</icon>
+  <tag>PCB</tag>
+  <tag>KiCad</tag>
+  <tag>FEM</tag>
+  <tag>Elmer</tag>
+  <content>
+    <workbench>
+      <classname>PcbFemWorkbench</classname>
+      <subdirectory>./</subdirectory>
+      <freecadmin>1.0.0</freecadmin>
+    </workbench>
+  </content>
+</package>

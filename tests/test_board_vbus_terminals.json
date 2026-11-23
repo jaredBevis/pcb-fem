@@ -1,0 +1,30 @@
+{
+ "net": "/VBUS",
+ "terminals": [
+  {
+   "name": "VIN",
+   "type": "Current",
+   "value": 2.0,
+   "items": [
+    "U1.1"
+   ]
+  },
+  {
+   "name": "LOAD",
+   "type": "Current",
+   "value": -0.5,
+   "items": [
+    "R1.1",
+    "VIA(118.000,109.000)*"
+   ],
+   "distribution": "Equal per item"
+  },
+  {
+   "name": "RTN",
+   "type": "Ground",
+   "items": [
+    "J1.1@bottom"
+   ]
+  }
+ ]
+}

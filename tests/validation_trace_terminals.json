@@ -1,0 +1,20 @@
+{
+ "net": "T",
+ "terminals": [
+  {
+   "name": "IN",
+   "type": "Current",
+   "value": 1.0,
+   "items": [
+    "P1.1"
+   ]
+  },
+  {
+   "name": "GND",
+   "type": "Ground",
+   "items": [
+    "P2.1"
+   ]
+  }
+ ]
+}
